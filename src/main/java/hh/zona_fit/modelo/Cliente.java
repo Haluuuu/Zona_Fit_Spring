@@ -6,6 +6,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
+import java.util.Objects;
+
 //JPA
 @Entity
 @Data //genera los metodos de get y set automaticamente
@@ -17,7 +19,7 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idcliente;
-    private String noombre;
+    private String nombre;
     private String apellido;
     private Integer membrensia;
 }
