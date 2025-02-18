@@ -9,5 +9,5 @@ public class ZonaFitApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ZonaFitApplication.class, args);
 	}
-	//Subir a Git
+	//Subir a gitHub
 }
