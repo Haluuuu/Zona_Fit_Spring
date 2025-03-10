@@ -30,8 +30,8 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado en tu sistema:
 ### 📥 Clonar el repositorio
 
 ```sh
- git clone <URL_DEL_REPOSITORIO>
- cd nombre-del-repositorio
+ git clone https://github.com/Haluuuu/Zona_Fit_Spring.git
+ cd Zona_Fit_Spring
 ```
 
 ### 🛠️ Configuración de la base de datos
