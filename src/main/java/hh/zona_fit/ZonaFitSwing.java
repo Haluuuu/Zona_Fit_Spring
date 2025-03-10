@@ -12,6 +12,7 @@ import javax.swing.*;
 public class ZonaFitSwing {
 
     public static void main(String[] args) {
+        FlatDarculaLaf.setup();
         //Instaciar la fabrica de Spring
         ConfigurableApplicationContext contextoSpring=
                 new SpringApplicationBuilder(ZonaFitSwing.class)
@@ -21,7 +22,6 @@ public class ZonaFitSwing {
 
         //Crear objeto de Swing
         SwingUtilities.invokeLater(()->{
-            FlatDarculaLaf.setup();
           ZonaFitForma zonaFitForma  =contextoSpring.getBean(ZonaFitForma.class);
           zonaFitForma.setVisible(true);
         });

@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 //@SpringBootApplication
 public class ZonaFitApplication implements CommandLineRunner {
-	@Autowired
+
 	private IClienteServicio clienteServicio;
 	//se inyecta la dependencia de servicio
 
