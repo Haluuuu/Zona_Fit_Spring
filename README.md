@@ -52,19 +52,10 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ```
 
-### 📦 Compilar y ejecutar el backend
-
-Ejecuta el siguiente comando en la terminal dentro de la carpeta del proyecto:
-
-```sh
-mvn spring-boot:run
-```
-
-Esto iniciará el servidor en `http://localhost:8080/`.
 
 ### 🖥️ Ejecutar la aplicación de escritorio (Swing)
 
-1. En tu **IDE (IntelliJ, Eclipse, NetBeans, etc.)**, ejecuta la clase principal del proyecto Swing.
+1. En tu **IDE (IntelliJ, Eclipse, NetBeans, etc.)**, ejecuta la clase principal del proyecto **ZonaFitSwing.java**.
 2. La interfaz gráfica se abrirá y podrás interactuar con la base de datos.
 
 ---
@@ -80,15 +71,7 @@ Esto iniciará el servidor en `http://localhost:8080/`.
 
 ## 🙌 Créditos
 
-Desarrollado por **[Tu Nombre]** como parte de una práctica en Java con tecnologías modernas.
+Desarrollado por **Harold Herrea** como parte de una práctica en Java con tecnologías modernas.
 
----
-
-## 📩 Contacto
-
-📧 **Correo Electrónico:** tu_email@example.com  
-📂 **Repositorio GitHub:** [Enlace aquí](#)
-
-¡Gracias por revisar este proyecto! 🚀
 
 
