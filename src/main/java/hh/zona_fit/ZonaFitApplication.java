@@ -111,8 +111,13 @@ public class ZonaFitApplication implements CommandLineRunner {
 			case 5->{
 				logger.info("Elimar Cliente \n Ingrese el Id:");
 				cliente.setIdcliente(Integer.parseInt(scan.nextLine()));
-				clienteServicio.eliminarCliente(cliente);
-				logger.info("Cliente Eliminado con exito");
+				var encontrado=clienteServicio.buscarClientePorId(cliente.getIdcliente());
+				if(encontrado!=null){
+					clienteServicio.eliminarCliente(cliente);
+					logger.info("Cliente Eliminado con exito");
+				}else{
+					logger.info("Cliente No encontrado");
+				}
 			}
 		}
 	}
